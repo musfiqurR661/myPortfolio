@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="Viewport" content="widht=device-width, initial-scale=1.0" />
+    <title>Md Musfiqur Rahman</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/eaa1626166.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" alt="logo" />
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </li>
+          </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+         
+        </nav>
+
+        <div class="header-text">
+          <p>Undergrad CSE Student</p>
+          <h1>Hello there,<br> I'm<span class="auto-input"></span></h1>
+          <a href="https://www.facebook.com/profile.php?id=100007204698107&mibextid=ZbWKwL" style="--clr:#6b93e9" class="l1"><i class="fa-brands fa-facebook" class="facebook"></i>Facebook</a>
+          <a href="https://www.github.com/musfiqurR661" style="--clr:#FFFFFF" class="l2"><i class="fa-brands fa-github" class=" facebook"></i>Github</a>
+          <a href="https://www.linkedin.com/in/musfiqur661/" style="--clr:#0072b1" class="l3"><i class="fa-brands fa-linkedin" class="facebook"></i>Linkedin</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-------------------------------About------------------->
+    
+    <div id="about">
+      <div class="container">
+          <div class="row">
+              <div class="about-col-1">
+                  <img src="images/rsz_img_20220522_141900.png">
+              </div>
+              <div class="about-col-2">
+                  <h1 class="subtitle">About Me</h1>
+                  
+                  <p class="description">Hi there, my name is Md Musfiqur Rahman and I am an undergraduate student studying Computer Science and Engineering. 
+                      Programming is my passion, and I am constantly striving to learn new skills and techniques to become a better developer.
+
+                      My ultimate goal is to become an Android Developer & I'm working on my skills, and I am excited to work towards achieving that goal. 
+                      I love exploring new programming languages, frameworks, and tools, and I am always on the lookout for ways to optimize my code 
+                      and improve the user experience.
+                      
+                      As a team player, I enjoy collaborating with others to achieve common goals. I believe that communication is key to success, 
+                      and I make sure to explain technical concepts in simple terms that everyone can understand. My friendly and outgoing personality 
+                      allows me to work well with others and make valuable contributions to any project.
+                      
+                      In the future, I am excited to continue growing my skills and knowledge as a programmer. I am confident that my passion for programming, 
+                      dedication, and ambition will help me to achieve great success in my career as an Android Developer.</p>
+                      <div class="tab-titles">
+                          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                          <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                          <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                      </div>
+
+                      <div class="tab-contents active-tab" id="skills">
+                          <ul>
+                              <li><span>Language</span><br>I've </li>
+
+                              <li><span>Web Development</span><br>Building web applications</li>
+                              <li><span>Android Development</span><br>Building android applications</li>
+                              
+                      </div>
+                      <div class="tab-contents" id="experience">
+                          <ul>
+                              <li><span>Projects</span><br> Worked on personal projects</li>
+                              
+                      </div>
+                      <div class="tab-contents" id="education">
+                          <ul>
+                              <li><span>2022-Current</span><br>BSC in CSE at United International University</li>
+
+                              <li><span>2018-2020</span><br>HSC - Adhyapak Abdul Majid College</li>
+                              <li><span>2012-2018</span><br>SSC -  Homna Adarsha High School</li>
+                              
+                      </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <!--------------------------Services------------------------------>
+  <div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div style="--clr:#FFFFFF">
+                <i class="fa-solid fa-desktop"></i>
+                <h2>Native Desktop/Web Application</h2>
+                <p>A native desktop/web application is a software program developed for
+                 a specific operating system or web browser, utilizing its full potential 
+                 to deliver fast, responsive, and feature-rich performance to users. It can
+                 access system resources and hardware capabilities for optimal performance, 
+                 resulting in a smooth and seamless user experience.</p>
+                <a href="#">Learn more..</a>
+            </div>
+
+            <div style="--clr:#FFFFFF">
+              <i class="fa-brands fa-android"></i>
+              <h2>Android Application</h2>
+              <p>An Android application is a software program developed for mobile devices 
+                  running on the Android operating system. It provides users with a wide range 
+                  of features and functionalities, including easy-to-use interfaces, access to 
+                  hardware and system resources, and integration with various online services, 
+                  resulting in a rich and engaging mobile experience.</p>
+              <a href="#">Learn more..</a>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!--------------------------------------My Work--------------->
+
+<div id="porfolio">
+  <div class="container">
+    <h1 class="subtitle">My Works</h1>
+    <div class="work-list">
+      <div class="work">
+          <img src="images/work-1.png">
+      </div>
+          <div class="work">
+            <img src="images/work-2.png">
+          </div>
+          <div class="work">
+            <img src="images/work-3.png">
+          </div>
+      </div>
+  </div>
+  </div>
+
+
+
+</div>
+
+
+    <!-- --contact -->
+
+    <div id="contact">
+      <div class="container">
+          <div class="row">
+              <div class="contact-left">
+                  <h1 class="subtitle">Contact Me</h1>
+                  <p><i class="fa-solid fa-envelope"></i>mrahman221334@bscse.uiu.ac.bd</p>
+              </div>
+              <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your name" required>
+                  <input type="email" name="Email" placeholder="Your email address" required>
+                  <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                  <button type="submit" class="btn btn2" style="--clr:#FFFFFF">Submit</button>
+                </form>
+                
+                
+              </div>
+
+          </div>
+      </div>
+      <div class="copyright">
+          <p>Made by © Musfiqur with  <i class="fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+   
+<script>
+  var tablinks=document.getElementsByClassName("tab-links");
+  var tabcontents=document.getElementsByClassName("tab-contents");
+  let myvar=0;
+
+  function opentab(tabname){
+      myvar++;
+
+      for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+      }
+
+      for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab"); 
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+  }
+
+</script>
+<script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+<script>
+    var typed= new Typed(".auto-input",{
+        strings: [" Md Musfiqur Rahman !", "Programmer !"],
+        typeSpeed:70,
+        backSpeed:70,
+        loop:true
+    })
+
+    var typed2=new Typed(".auto-input2",{
+        strings: ["Will be updated soon !"],
+        typeSpeed:70,
+        backSpeed:70,
+        loop:true
+    })
+
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<head>
+  <script>
+const form = document.forms['submit-to-google-sheet'];
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+  const data = {};
+  formData.forEach((value, key) => {
+    data[key] = value;
+  });
+
+  fetch('https://script.google.com/a/macros/bscse.uiu.ac.bd/s/AKfycbzwm3-iXTGChgmU_rqhFXj_igyTiHnW5s_LrKUP0IV7He5pVQ65J7CWDFIa5vE40zRx/exec', {
+    method: 'POST',
+    body: JSON.stringify(data),
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  })
+    .then(response => {
+      if (response.ok) {
+        console.log('Form submitted successfully');
+        // You can add code here to show a success message or redirect the user
+      } else {
+        console.error('Form submission failed');
+        // You can add code here to show an error message
+      }
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      // You can add code here to handle network errors
+    });
+});
+
+   </script>
+
+</head>
+  </body>
+</html>
